@@ -54,6 +54,12 @@ curl -X POST \
     }'
 ```
 
+or from bulk entry from a json file
+
+```bash
+curl -X POST http://localhost:8000/api/ -H "Content-Type: application/json" -d @products.json
+```
+
 ### Using Postman
 
 1. Create a new request in Postman
